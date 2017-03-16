@@ -13,10 +13,12 @@
     tools:context="com.jorgechuc.android.geoapp.GeoActivity">
     
     <TextView
+        android:id="@+id/texto_pregunta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:text="@string/texto_pregunta"> </TextView>
+        android:text="@string/texto_pregunta_1"></TextView>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,12 +27,20 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_boton_cierto"/>
+            android:text="@string/texto_boton_cierto"
+            android:id="@+id/boton_cierto"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/texto_boton_falso"/>
+            android:text="@string/texto_boton_falso"
+            android:id="@+id/boton_falso" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/boton_siguiente"
+    android:text="@string/texto_boton_sigiente"/>
 
 
     </LinearLayout>
